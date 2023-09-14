@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.logoimg{
+    height: 50px;
+    width: 100px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+}
+.location{
+
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.loclogo{
+    display: flex;
+    align-items: center;
+}
+.p1{
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.p2{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.navsearch{
+    display: flex;
+    height: 40px;
+    width: 600px;
+    border-radius: 4px;
+    background-color: yellow;
+    justify-content: space-evenly;
+}
+
+.country{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.searchselect{
+    width: 51px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+
+}
+
+.inputbox{
+    width: 90%;
+    border: none;
+
+}
+
+.searchbox{
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sign1{
+    font-size: 12px;
+}
+.sign2{
+    font-size: 14px;
+}
+
+.shopicon i {
+    font-size: 30px;
+    height: 26px;
+}
+.shopicon{
+    font-size: 16px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+
+.panelall{
+    margin-right: 40px;
+}
+
+.panelops p{
+   display: inline;
+   width: 80%;
+   margin-left: 10px;
+}
+
+.deals{
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+/* hero sextion */
+
+.hero{
+    background-image: url(img1.jpg);
+    height: 300px;
+    background-size: cover;
+    
+}
+
+/* shop sec */
+
+.shopsec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+.box{
+    height: 385px;
+    width: 290px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 0px 15px 0px;
+    
+}
+
+.boxi1{
+    height: 300px;
+    width: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size:cover
+    
+}
+.boxmar{
+    margin-left: 15px;
+    margin-left: 15px;
+}
+
+.deal{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* slider */
+
+.slider{
+    height: 280px;
+    background-color: gray;
+    display: flex;
+}
+
+.sliderbar{
+    height: 260px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.slideimg{
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    margin-top: 20px;
+}
+
+.slidetext{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+/* footer */
+
+.footermain{
+    height: 400px
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.boxf{
+    height: 400px;
+    width: 200px;
+    margin-top: 100px;
+}
+
+.boxf a{
+    font-size: medium;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+
+}
+ .boxf p{
+    font-size: larger;
+    color: white;
+ }
+
+ .footer2{
+    height: 70px;
+    background-color: #222f3d;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+
+ .ft a{
+    color: white;
+
+ }
+
+ .ft span{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+ }
